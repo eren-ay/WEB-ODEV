@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="200601080.js">
+	</script>
+	<link rel="stylesheet" href="200601080.css">
+</head>
+<body>
+	<table style="width:40%; margin-left:30%;">
+	  <tr>
+	    <th>Eren Ay</th>
+	    <th>200601080</th>
+	  </tr>
+	  <tr>
+	    <td><label>1.Sayiyi giriniz:</label></td>
+	    <td><input type="text" id="Sayi1" class="inputtxt"></td>
+	  </tr>
+	  <tr>
+	    <td><label>2.Sayiyi giriniz:</label></td>
+	    <td><input type="text" id="Sayi2" class="inputtxt"></td>
+	  </tr>
+	  <tr>
+	    <td><label class="IslemSec">Islem seciniz:</label></td>
+	    <td>
+	    	<select id="Islem" class="HesaplaSecenek">
+  				<option value="Topla">Toplam</option>
+  				<option value="Cikar">Cikarma</option>
+  				<option value="Carp">Carpma</option>
+ 				<option value="Bol">Bolme</option>
+		    </select>
+		</td>
+	  </tr>
+	  <tr>
+	    <td class="Sonuc" colspan="2" onclick="Hesapla()">
+           	<label class="SonucButton" >Hesapla</label>
+	    </td>
+	  </tr>
+	  <tr>
+	    <td  colspan="2" >
+           	<label class="SonucLabel" id="Sonuc">SONUC: </label>
+	    </td>
+	  </tr>
+	</table>
+
+
+</body>
+</html>

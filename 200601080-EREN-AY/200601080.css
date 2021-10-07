@@ -1,0 +1,39 @@
+table, th, td {
+  border: 1px solid black;
+}
+.inputtxt {
+	font-size: 25px;
+	border: 1px white;
+	width: 99%;
+	background-color: lightgreen;
+}
+body {background-color: powderblue;}
+label {
+	font-size: 25px;
+}
+.HesaplaSecenek {
+  	width: 100%;
+  	font-size: 25px;
+  	background-color: lightgreen;
+}
+.Sonuc{
+	width: 95%;
+  	font-size: 35px;
+  	text-align: center;
+  	
+}
+.SonucButton{
+
+  background-color: #4CAF50; 
+  border:  1px solid black;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  width: 90%;
+}
+
+.SonucButton:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
